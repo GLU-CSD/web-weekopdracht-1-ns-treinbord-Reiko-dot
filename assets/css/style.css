@@ -1,4 +1,4 @@
-#container{
+#container {
     width: 936px;
     display: flex;
     margin: 0 auto;
@@ -6,25 +6,180 @@
     border: 2px solid #000;
 }
 
-#left{
+#left {
     width: 240px;
     background-color: #f2f2f2;
     height: 335px;
     border: 2px solid #000;
 }
 
+.cirkel {
+    width: 195px;
+    height: 195px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.image2 {
+    position: absolute;
+    width: 195px;
+    height: 195px;
+    margin-left: 20px;
+    margin-top: -195px;
+}
+
+
+
+
 #middle {
     width: 568px;
     height: 339px;
-    background-color: rgb(0, 0, 106);
+    background-color: rgb(2, 2, 95);
     padding: 35px;
     box-sizing: border-box;
     border: 2px solid #000;
 }
 
-#right{
-    width:128px;
+
+
+#vierkant3 {
+    width: 480px;
+    height: 240px;
+    margin-left: 20px;
+    margin-top: 15px;
+    background-color: white;
+    display: flex;
+}
+
+#vierkant4 {
+    width: 480px;
+    height: 26px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(58, 58, 129);
+    display: flex;
+}
+
+#Heerlen {
+    position: absolute;
+    font-size: 40px;
+    margin-left: 25px;
+    margin-top: -220px;
+    font-weight: bold;
+    color: darkslateblue;
+}
+
+#Intercity {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 280px;
+    margin-top: -280px;
+    color: darkslateblue;
+}
+
+.box1 {
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: -170px;
+    color: darkslateblue;
+    
+}
+
+.box2 {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: -33px;
+    color: white;
+
+}
+
+.image1 {
+    position: absolute;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100px;
+    margin-left: 385px;
+    margin-top: -297px;
+}
+
+#f1 {
+    position: absolute;
+    font-size: 50px;
+    margin-left: 10px;
+    margin-top: 2px;
+    font-weight: bold;
+    color: rgb(0, 0, 106);
+}
+
+#minuut {
+    position: absolute;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 106);
+}
+
+
+
+#right {
+    width: 128px;
     height: 335px;
     background-color: rgb(0, 0, 106);
     border: 2px solid #000;
+}
+
+
+
+#vierkant {
+    width: 96px;
+    height: 96px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+#vierkant2 {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: -97px;
+    background-color: rgb(0, 0, 106);
+}
+
+#spoor {
+    font-size: 8px;
+    display: incline-block;
+    color: black;
+    margin-left: 45px;
+    margin-top: -15px;
+    font-weight: bold;
+    color: rgb(0, 0, 106);
+}
+
+#x18 {
+    position: absolute;
+    font-size: 67px;
+    color: rgb(0, 0, 106);
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 25px;
+    font-family: Arial, sans-serif;
+}
+
+#b {
+    position: absolute;
+    font-size: 30px;
+    color: rgb(0, 0, 106);
+    font-weight: bold;
+    margin-left: 75px;
+    margin-top: 35px;
+    font-family: Arial, sans-serif;
 }

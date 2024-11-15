@@ -1,0 +1,46 @@
+#muur {
+    width: 500px;
+    height: 300px;
+    background-color: #d9d9d9;
+}
+
+#steen1 {
+    background-color: #ffa500;
+    width: 100px;
+    height: 25px;
+    display: incline-block;
+}
+
+#steen2 {
+    background-color: #ffa500;
+    width: 100px;
+    height: 25px;
+    display: incline-block;
+}
+
+#steen3 {
+    background-color: #ffa500;
+    width: 100px;
+    height: 25px;
+    display: incline-block;
+}
+
+#steen4 {
+    background-color: #ffa500;
+    width: 100px;
+    height: 25px;
+    display: incline-block;
+}
+
+#steen5 {
+    background-color: #ffa500;
+    width: 100px;
+    height: 25px;
+    display: incline-block;
+    
+}
+
+#rij {
+    display: flex;
+}
+
